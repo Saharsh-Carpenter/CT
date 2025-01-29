@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saharsh (24P03F0026)</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #fffffffd;
+        }
+
+        h2 {
+            color: #000000;
+
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            font-size: 2.5rem;
+            color: #737373;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            color: #727070;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #2f2e2e;
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #202020;
+            color: #ffffff;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .flex-container section {
+            width: 30%;
+            background-color: #716c6c56;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .visit-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .visit-links .link-pair {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .visit-links a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: underline;
+
+            color: #4245ff;
+
+            font-weight: bold;
+        }
+
+        .visit-links img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .dark-mode th {
+            background-color: #333;
+        }
+
+        h1,
+        h2,
+        p,
+        th,
+        td {
+            transition: color 0.3s;
+        }
+
+        .dark-mode-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #000;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .dark-mode .dark-mode-toggle {
+            background: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+    <header>
+        <h1>Saharsh Carpenter</h1>
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQEZ2rGMb32PGg/profile-displayphoto-shrink_400_400/B56ZSpEg1uGQAg-/0/1738003321046?e=1743638400&v=beta&t=tb4LKVAcClXv4_WVk0-DV3EG5Y_WcGsWnm4VpU5KH1E"
+            alt="Profile photo">
+    </header>
+    <p>
+        Hi there! I'm Saharsh, a passionate Master of Computer Application student at Indian Institute Of Information technology Bhopal. Welcome to my portfolio, where I showcase my skills, achievements, and projects. I have a deep love for coding, problem-solving, and continuous learning in the tech world.
+
+With experience in java , I enjoy building innovative solutions and tackling complex challenges. Beyond coding, I actively participate in coding contest, contribute to open-source projects, and stay updated with the latest tech trends.
+
+I'm always eager to collaborate, learn, and grow. Feel free to explore my work, connect with me, and share insights! Let’s innovate and make an impact together.
+
+
+    </p>
+    <section>
+        <h2>Educational Qualifications</h2>
+        <table>
+            <tr>
+                <th>S.no</th>
+                <th>Name of Institute</th>
+                <th>Year of Passing</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Indian Institute Of Information Technology Bhopal</td>
+                <td>2027(Expected)</td>
+                <td>7.91 CGPA</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>College of Professional Studies Indore</td>
+                <td>2024</td>
+                <td>67.2%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Kendriya Vidyalaya Shajapur</td>
+                <td>2021</td>
+                <td>86.2%</td>
+            </tr>
+        </table>
+    </section>
+    <div class="flex-container">
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li>NIMCET AIR-843</li>
+                <li>MAH MCA CET - 99.18 percentile</li>
+                <li>CUET PG - 167 marks</li>
+                <li>KIITEE - 97 percentile</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills/Interests</h2>
+            <ul>
+                <li><strong>Coding Skills:</strong> Java, Python, C</li>
+                <li><strong>Problem-Solving:</strong> Data Structures and Algorithms (DSA)</li>
+                <li><strong>Sports Interests:</strong></li>
+                <ul>
+                    <li>Badminton</li>
+                    <li>Cricket</li>
+                </ul>
+            </ul>
+        </section>
+        <section>
+            <h2>Visit</h2>
+            <div class="visit-links">
+                <div class="link-pair">
+                    <a href="https://www.linkedin.com/in/saharsh-carpenter-616189325/">
+                        <img src="https://static.vecteezy.com/system/resources/previews/016/716/470/non_2x/linkedin-icon-free-png.png"
+                            alt="LinkedIn Logo">
+                        LinkedIn
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWe4pxW3YmEUYigcD1teAB4_DTX7SCaO64dQ&s"
+                            alt="Instagram Logo">
+                        Instagram
+                    </a>
+                </div>
+                <div class="link-pair">
+                    <a href="mailto:saharshcarpenter@gmail.com">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail Logo">
+                        Gmail
+                    </a>
+                    <a href="https://academic.iiitbhopal.ac.in/#!/StudentProfile">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/3/36/Indian_Institute_of_Information_Technology%2C_Bhopal_Logo.png"
+                            alt="IIIT Logo">
+                        IIIT Bhopal
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
